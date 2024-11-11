@@ -70,7 +70,8 @@ class Point
         double y;
 };
 
-int main() {
+int main() 
+{
     double x1, y1, x2, y2;
 
     cout << "Please input the x and y coordinates of the first point.\n";
