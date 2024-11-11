@@ -7,19 +7,23 @@ class Point
     public:
         Point(double x = 0, double y = 0) : x(x), y(y) {}
 
-        double getX() const {
+        double getX() const
+        {
             return x;
         }
 
-        double getY() const {
+        double getY() const
+        {
             return y;
         }
 
-        void setX(double x) { 
+        void setX(double x)
+        { 
             this->x = x; 
         }
 
-        void setY(double y) { 
+        void setY(double y)
+        { 
             this->y = y;
         }
 
